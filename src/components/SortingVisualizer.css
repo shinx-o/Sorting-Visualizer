@@ -1,0 +1,144 @@
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(56, 102, 189);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.slider-container {
+    width: 20vw;
+    display: flex;
+    align-items: center;
+}
+
+.select-speed {
+    width: 20vw;
+    display: inline-block;
+}
+
+.speed {
+    width: 20vw;
+}
+
+.slider-component {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.slider-container span {
+    margin-right: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.slider-size-label {
+    width: 50%;
+}
+
+.select-speed-label {
+    width: 20%;
+    margin-right: 0px;
+}
+
+.MuiSlider-rail {
+    color: transparent;
+}
+
+.MuiSlider-thumb {
+    color: white;
+}
+
+.MuiSlider-track {
+    color: white;
+}
+
+.MuiSvgIcon-fontSizeMedium path {
+    color: white;
+}
+
+.MuiOutlinedInput-root fieldset {
+    border: none;
+}
+
+
+.controls {
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.controls:hover {
+    color: rgb(202, 202, 202);
+}
+
+
+.bar-container {
+    width: 100%;
+    height: calc(100% - 10vh);
+    display: flex;
+    justify-content: center;
+}
+
+.bar {
+    margin: 2px;
+    text-align: center;
+    font-size: 12px;
+    width: 13px;
+    background-color: #3ed4cd;
+    position: relative;
+    border-radius: 0 0 10px 10px;
+}
+
+.bar-value {
+    position: absolute;
+    bottom: -16px;
+    left: 0;
+    border-radius: 50%;
+    height: 13px;
+    width: 13px;
+    background-color: #3ed4cd;
+    text-align: center;
+    color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+}
+
+.bar-value:hover {
+    cursor: pointer;
+    bottom: -60px;
+    width: 45px;
+    height: 45px;
+    left: -20px;
+    color: white;
+    border: 5px solid #219993;
+    z-index: 999;
+
+}
+
+.sort-btn {
+    background-color: rgb(78, 182, 100);
+    border-radius: 5px;
+}
+
+.sort-btn:hover {
+    background-color: rgb(69, 163, 89);
+    color: white;
+}
